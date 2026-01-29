@@ -7,7 +7,8 @@ describe("simulator loads", () => {
 
 describe("pass income to url parameters", () => {
   it("successfully save a new simulation", () => {
-    const simulationName = 'Rendimento líquido em 2023';
+    // ATUALIZADO: Nome da simulação alterado para 2026
+    const simulationName = 'Rendimento líquido em 2026';
 
     cy.visit("/#/");
     cy.get('[data-cy="simulations-menu"]').should('not.exist');
